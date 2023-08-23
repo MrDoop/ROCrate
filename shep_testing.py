@@ -69,4 +69,8 @@ for i in DOs:
     print(create_dataobject_dict(i)["_children_ids"])
 
 print(timeseries_reference_api.get_all_timeseries_references(collection_id=6,data_object_id=10)[0].__getattribute__('id'))
-print(type(json.dumps(timeseries_reference_api.get_timeseries_payload(6,10,14)[0].to_dict())))
+
+data = (timeseries_reference_api.get_timeseries_payload(6,10,14)[0].to_dict())
+
+with open('data.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
