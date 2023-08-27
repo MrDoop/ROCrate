@@ -1,0 +1,22 @@
+{
+    "created_at": "2023-08-26 17:30:37.698000+00:00",
+    "created_by": "zell_jo",
+    "data_object_id": 7,
+    "end": 1693071037257479300,
+    "id": 13,
+    "name": "MyFirstReference",
+    "start": 1693070677257479300,
+    "timeseries": [
+        {
+            "device": "MyDev",
+            "field": "value",
+            "location": "MyLoc",
+            "measurement": "MyMeas",
+            "symbolic_name": "MySymName"
+        }
+    ],
+    "timeseries_container_id": 10,
+    "type": "TimeseriesReference",
+    "updated_at": null,
+    "updated_by": null
+}

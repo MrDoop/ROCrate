@@ -66,12 +66,14 @@ for i in collection_dict["_data_object_ids"]:
     print(create_dataobject_dict(i))
 
 ### Recursive function to find the oldest parent DO
+prev_objects = []
 def find_ancestor(id):
     do_dict = create_dataobject_dict(id)
     parent = do_dict["_parent_id"]
-    if parent == None:
+    if parent == None or do_dict["_id"] in prev_objects:
         return id
     else:
+        prev_objects.append(do_dict["_id"])
         return find_ancestor(parent)
 
 print(find_ancestor(collection_dict["_data_object_ids"][1]))

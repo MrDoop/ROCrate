@@ -20,8 +20,8 @@ conf = Configuration(host=HOST, api_key={"apikey": key})
 conf.access_token = None
 client = ApiClient(configuration=conf)
 
-COLLECTION_ID = 6
-DATAOBJECT_ID = 10
+COLLECTION_ID = 3
+DATAOBJECT_ID = 7
 
 # In order to upload timeseries, you first need to create a container into which you can upload your data
 timeseries_api = TimeseriesApi(client)

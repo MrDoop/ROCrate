@@ -1,0 +1,20 @@
+{
+    "attributes": {},
+    "children_ids": [
+        6,
+        7
+    ],
+    "collection_id": 3,
+    "created_at": "2023-08-26 17:29:49.796000+00:00",
+    "created_by": "zell_jo",
+    "description": "This is my first data object",
+    "id": 5,
+    "incoming_ids": [],
+    "name": "MyFirstDataObject",
+    "parent_id": null,
+    "predecessor_ids": [],
+    "reference_ids": [],
+    "successor_ids": [],
+    "updated_at": null,
+    "updated_by": null
+}

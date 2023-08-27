@@ -20,6 +20,8 @@ diagram = crate.add_file("exp/diagram.svg", dest_path="images/figure.svg", prope
     "encodingFormat": "image/svg+xml"
 })
 
+testFile = crate.add("string", canonical_id=99)
+
 something = crate.add_dataset("logs", dest_path="logs", properties={
     "name": "cheeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 })

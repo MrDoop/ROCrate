@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2023-08-27T14:13:35+00:00",
+            "hasPart": [
+                {
+                    "@id": "collection.json"
+                },
+                {
+                    "@id": "dataobject/"
+                },
+                {
+                    "@id": "timeseriesreference/"
+                },
+                {
+                    "@id": "data/"
+                }
+            ]
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "collection.json",
+            "@type": "File",
+            "author": "zell_jo",
+            "description": "This is my first collection",
+            "name": "MyFirstCollection"
+        },
+        {
+            "@id": "dataobject/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "timeseriesreference/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "data/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7909-1942",
+            "@type": "Person",
+            "affiliation": "DLR",
+            "name": "Roland Gl\u00fcck"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6285-3242",
+            "@type": "Person",
+            "affiliation": "DLR",
+            "name": "Tobias Haase"
+        }
+    ]
+}

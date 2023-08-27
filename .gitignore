@@ -1,2 +1,6 @@
 mykey.py
-data.json
+getShep.py
+makeShep.py
+makeTimeseries.py
+shep_testing.py
+TestCrate.py

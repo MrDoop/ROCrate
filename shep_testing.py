@@ -68,7 +68,8 @@ DOs = [collect_dataObject_IDs(collection_id)]
 for i in DOs:
     print(create_dataobject_dict(i)["_children_ids"])
 
-print(timeseries_reference_api.get_all_timeseries_references(collection_id=6,data_object_id=10)[0].__getattribute__('id'))
+#print(timeseries_reference_api.get_all_timeseries_references(collection_id=6,data_object_id=10)[0].__getattribute__('id'))
+print(timeseries_reference_api.get_all_timeseries_references(collection_id=6,data_object_id=10))
 
 data = (timeseries_reference_api.get_timeseries_payload(6,10,14)[0].to_dict())
 
